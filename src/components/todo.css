@@ -1,0 +1,15 @@
+#show{
+    margin-top: 15px;    
+    padding: 16px;
+      border: none;
+      border-radius: 0 4px 4px 0;
+      cursor: pointer;
+      outline: none;
+      background: linear-gradient(
+        90deg,
+        rgb(118, 212, 126) 0%,
+        rgb(51, 117, 91) 100%
+      );
+      color: #fff;
+      text-transform: capitalize;
+    }

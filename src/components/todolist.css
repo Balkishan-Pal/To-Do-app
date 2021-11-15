@@ -1,0 +1,40 @@
+.strike {
+    text-decoration: line-through black;
+    opacity: 0.4;
+ }
+ #list{
+height: 50px;
+margin-top:1%;    
+ }
+
+ #listname{
+    color:white;
+    margin-top: -30px;
+ }
+  #list >button{
+  
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 100px;
+    border:  1px solid white;
+    margin-left: 1%;
+    margin-top: 2%;
+ }
+ 
+ #remove{
+    margin-left: 410px;
+  color: #fff;
+  margin-top: -30px;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+ }
+
+ #list:nth-child(2n+2) {
+    background: linear-gradient(
+      100deg,
+      rgb(57, 182, 109) 0%,
+      rgb(224, 217, 228) 100%
+    );
+  }
